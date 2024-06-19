@@ -330,10 +330,7 @@ font-size: medium;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000;
-    background-image: url("img/world-black-white-simple-wallpaper-preview.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
+   
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s
@@ -347,6 +344,9 @@ font-size: medium;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 400px;
     height: 400px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
   
   .login-form h2 {
@@ -497,8 +497,9 @@ font-size: medium;
   max-width: 600px;
   margin: 105px auto;
   padding: 30px;
-  background-color: #fff;
- 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: transform 0.3s;
   
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -509,6 +510,7 @@ font-size: medium;
 
 .form-groupO {
   margin-bottom: 15px;
+  color: #f0f0f0;
 }
 
 label {
@@ -529,7 +531,7 @@ input[type="submit"] {
   width: 100%;
   padding: 10px;
   border: none;
-  background-color: #007bff;
+  background-color: #000000;
   color: #fff;
   cursor: pointer;
   border-radius: 5px;
