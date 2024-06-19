@@ -17,6 +17,7 @@ nav {
 ul {
   list-style-type: none;
   text-align: center;
+  padding-top: 10px;
 }
 
 li {
@@ -832,8 +833,8 @@ p {
   .logo{
     height: 100px;
     width: 100px;
-   
-   padding-left: 662px;
+    margin-left: 712px;
+    
   }
   .h1 h1{
     text-align: center;
