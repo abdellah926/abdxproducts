@@ -551,9 +551,7 @@ input[type="submit"] {
 }
 
 .background-image1 {
-  background-image: url('img/art-numerique-paysage-urbain-architecture.jpg');
-  background-size: cover;
-  background-position: center;
+  
   position: fixed;
   top: 0;
   left: 0;
