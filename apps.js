@@ -11,4 +11,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initial setup
     images[currentIndex].classList.add('active');
-    setInterval(showNextImage, 2000); // Change image every 2 seconds
+    setInterval(showNextImage, 2000); 

@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>product.gaming</title><link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/jpg" href="img/Screenshot (714).png">
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.js"></script>
 </head>
 <body>
   <video autoplay muted loop class="background-video">
@@ -26,20 +26,29 @@
 
         </ul>
       </nav>    
-      <div class="login-container">
-        <form class="login-form" action="home page.html" method="POST">
-          <h2>Login</h2>
-          <div class="input-group">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+      <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          <h2 class="active"> Sign In </h2>
+          <h2 class="inactive underlineHover">
+            <a href="sign up.html">Sign Up</a> </h2>
+      
+          <!-- Icon -->
+         
+      
+          <!-- Login Form -->
+          <form>
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="email">
+            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+            <input type="submit" class="fadeIn fourth" value="Log In">
+          </form>
+      
+          <!-- Remind Passowrd -->
+          <div id="formFooter">
+            <a class="underlineHover" href="#">Forgot Password?</a>
           </div>
-          <div class="input-group">
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-          </div><a href="home page.html">
-          <button type="submit">Login</button>
-        </a>
-        </form>
+      
+        </div>
       </div>
 
 <footer class="footer">
