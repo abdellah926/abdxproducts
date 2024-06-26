@@ -760,7 +760,7 @@ p {
 
 /* BASIC */
 a {
-  color: #92badd;
+  color: #555555;
   display:inline-block;
   text-decoration: none;
   font-weight: 400;
@@ -793,7 +793,9 @@ h2 {
 #formContent {
   -webkit-border-radius: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 10px;
-  background: #fff;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
   padding: 30px;
   width: 90%;
   max-width: 450px;
@@ -823,7 +825,7 @@ h2.inactive {
 
 h2.active {
   color: #0d0d0d;
-  border-bottom: 2px solid #5fbae9;
+  border-bottom: 2px solid #000000;
   
 }
 
@@ -832,7 +834,7 @@ h2.active {
 /* FORM TYPOGRAPHY*/
 
 input[type=button], input[type=submit], input[type=reset]  {
-  background-color: #56baed;
+  background-color: #000000;
   border: none;
   color: white;
   padding: 15px 80px;
@@ -841,8 +843,8 @@ input[type=button], input[type=submit], input[type=reset]  {
   display: inline-block;
   text-transform: uppercase;
   font-size: 13px;
-  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
-  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-box-shadow: 0 10px 30px 0 rgba(105, 105, 105, 0.4);
+  box-shadow: 0 10px 30px 0 rgba(69, 69, 69, 0.4);
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 9px 9px 9px 9px;
   margin: 20px 20px 40px 0.9px;
@@ -854,7 +856,7 @@ input[type=button], input[type=submit], input[type=reset]  {
 }
 
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
-  background-color: #39ace7;
+  background-color: #000000;
 }
 
 input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
@@ -888,7 +890,7 @@ input[type=text] {
 
 input[type=text]:focus {
   background-color: #fff;
-  border-bottom: 2px solid #5fbae9;
+  border-bottom: 2px solid #000000;
 }
 
 input[type=text]:placeholder {
